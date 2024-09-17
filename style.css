@@ -1,0 +1,152 @@
+html, body { 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2; /* Alterado para um cinza claro que complementa o tema */
+}
+
+header {
+    margin-top: 2%;
+    width: 90%;
+    height: 8%;
+    margin-left: 5%;
+    background-color: #00A3E0; /* Azul Elétrico */
+}
+
+header h1 {
+    color: #0A0A0A; /* Preto Ônix */
+    text-align: center;
+}
+
+nav {
+    width: 90%;
+    height: 4%;
+    margin-left: 5%;
+    background-color: #005BB5; /* Azul mais escuro, combinando com o tema principal */
+}
+
+nav ul {                
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 15px 0;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    color: #FFD700; /* Dourado */
+    font-size: 13pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil para destaque */
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1); /* Ajustado para um efeito mais sutil */
+    font-weight: bolder;
+    text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5); /* Sombra mais pronunciada ao passar o mouse */
+}
+
+/*------------------ MAIN-----------------*/
+main {
+    background-image: url(img/teste.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 84%;
+    height: 76%;
+    margin-left: 5%;
+    background-color: #ffffff; /* Branco para manter o contraste */
+    padding: 3%;
+}
+
+main ul {                
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 15px 0;
+}
+
+main ul li {
+    display: flex;
+}
+
+main ul li a {
+    color: #0A0A0A; /* Preto Ônix */
+    font-size: 13pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil para destaque */
+    transition: all 0.5s;
+}
+
+main ul li h3:hover {
+    transform: scale(1.1);
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*------------ main sobre---------*/
+
+#sobre {
+    width: 84%;
+    height: 76%;
+    margin-left: 5%;
+    padding: 3%;
+    text-align: center;
+    background-color: #E0E0E0; /* Cinza claro para contraste com o fundo principal */
+}
+
+#sobre table tr th p {
+    text-align: justify;
+}
+
+#sobre table {
+    margin-top: 5%;
+}
+
+/**--------- main contato----*/
+
+#contato {
+    width: 88%;
+    height: 76%;
+    margin-left: 5%;
+    padding: 1%;
+    text-align: center;
+    background-color: #E0E0E0; /* Cinza claro, consistente com a seção sobre */
+}
+
+#table {
+    width: 100%;
+    height: 100%;
+}
+
+#enviar {
+    background-color: #00A3E0; /* Azul Elétrico */
+    border-radius: 10%;
+    width: 30%;
+    color: #ffffff; /* Branco para contraste */
+}
+
+#limpar {
+    background-color: #FFD700; /* Dourado */
+    border-radius: 10%;
+    width: 30%;
+    color: #0A0A0A; /* Preto Ônix */
+}
+
+/*-------------------------FOOTER----------*/
+footer {
+    margin-bottom: 2%;
+    width: 90%;
+    height: 8%;
+    margin-left: 5%;
+    background-color: #005BB5; /* Azul mais escuro para combinar com o nav */
+}
